@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="SetHongdongCell">
+            <rect key="frame" x="0.0" y="1" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eou-Ej-4mO">
+                        <rect key="frame" x="10" y="10" width="100" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="mL9-Ns-a4Y"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="套餐名称" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLs-6m-5CM">
+                        <rect key="frame" x="120" y="10" width="64" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热销中" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGW-na-eM2">
+                        <rect key="frame" x="120" y="34" width="42" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥1200.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ty6-94-7pr">
+                        <rect key="frame" x="120" y="57" width="60" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YGW-na-eM2" firstAttribute="leading" secondItem="Eou-Ej-4mO" secondAttribute="trailing" constant="10" id="5X6-KU-0fm"/>
+                    <constraint firstItem="Eou-Ej-4mO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="CjJ-vB-mp9"/>
+                    <constraint firstItem="ty6-94-7pr" firstAttribute="leading" secondItem="Eou-Ej-4mO" secondAttribute="trailing" constant="10" id="FUR-fK-Cz3"/>
+                    <constraint firstAttribute="bottom" secondItem="Eou-Ej-4mO" secondAttribute="bottom" constant="10" id="alh-a3-wtF"/>
+                    <constraint firstItem="Eou-Ej-4mO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="cdp-Xb-tid"/>
+                    <constraint firstItem="xLs-6m-5CM" firstAttribute="leading" secondItem="Eou-Ej-4mO" secondAttribute="trailing" constant="10" id="iZw-qG-Yky"/>
+                    <constraint firstItem="xLs-6m-5CM" firstAttribute="top" secondItem="Eou-Ej-4mO" secondAttribute="top" id="lzQ-DE-RgR"/>
+                    <constraint firstItem="ty6-94-7pr" firstAttribute="bottom" secondItem="Eou-Ej-4mO" secondAttribute="bottom" id="mAK-WO-bhJ"/>
+                    <constraint firstItem="Eou-Ej-4mO" firstAttribute="centerY" secondItem="YGW-na-eM2" secondAttribute="centerY" id="ngh-dm-xYS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="priceLabel" destination="ty6-94-7pr" id="0ks-pR-oGA"/>
+                <outlet property="setImageView" destination="Eou-Ej-4mO" id="6as-eW-ioA"/>
+                <outlet property="statusLabel" destination="YGW-na-eM2" id="zen-DQ-0Ud"/>
+                <outlet property="titleLabel" destination="xLs-6m-5CM" id="xsy-lm-Zhn"/>
+            </connections>
+            <point key="canvasLocation" x="494" y="262.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC
+END
+GCDGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC/GCDGroup.h
+END
+GCDObjC.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC/GCDObjC.h
+END
+GCDGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC/GCDGroup.m
+END
+GCDSemaphore.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC/GCDSemaphore.h
+END
+GCDMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC/GCDMacros.h
+END
+GCDQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC/GCDQueue.h
+END
+GCDSemaphore.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC/GCDSemaphore.m
+END
+GCDQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/qingqing_ios_code/!svn/ver/593/branches/teacher-4.1.6/QQing/Vendor/GCDObjC/GCDQueue.m
+END

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="ContactParentCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAa-hC-HYs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" image="setBackground_02.png" translatesAutoresizingMaskIntoConstraints="NO" id="fz4-3W-lK9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="he4-ga-itx">
+                                <rect key="frame" x="30" y="13" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="AS4-fa-vGJ"/>
+                                    <constraint firstAttribute="height" constant="56" id="Sa0-lK-m9i"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C7e-4D-qwH">
+                                <rect key="frame" x="234" y="10" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="fmI-YU-fb1"/>
+                                    <constraint firstAttribute="width" constant="56" id="zWa-1A-AA0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLZ-8M-OpF">
+                                <rect key="frame" x="43" y="74" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="腕表标示" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qmf-kb-POf">
+                                <rect key="frame" x="232" y="71" width="60" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="C7e-4D-qwH" secondAttribute="trailing" constant="30" id="5U3-1I-28G"/>
+                            <constraint firstItem="he4-ga-itx" firstAttribute="top" secondItem="qAa-hC-HYs" secondAttribute="top" constant="13" id="7E2-Fm-RZR"/>
+                            <constraint firstAttribute="bottom" secondItem="NLZ-8M-OpF" secondAttribute="bottom" constant="4" id="C2u-6B-STJ"/>
+                            <constraint firstItem="C7e-4D-qwH" firstAttribute="top" secondItem="qAa-hC-HYs" secondAttribute="top" constant="10" id="E1D-O3-3Ov"/>
+                            <constraint firstItem="NLZ-8M-OpF" firstAttribute="top" secondItem="he4-ga-itx" secondAttribute="bottom" constant="5" id="FMw-XD-QJg"/>
+                            <constraint firstAttribute="bottom" secondItem="fz4-3W-lK9" secondAttribute="bottom" id="H0j-NC-h6h"/>
+                            <constraint firstItem="fz4-3W-lK9" firstAttribute="top" secondItem="qAa-hC-HYs" secondAttribute="top" id="Jdu-WP-BBn"/>
+                            <constraint firstItem="Qmf-kb-POf" firstAttribute="top" secondItem="C7e-4D-qwH" secondAttribute="bottom" constant="5" id="KWj-K6-zO3"/>
+                            <constraint firstItem="NLZ-8M-OpF" firstAttribute="centerX" secondItem="he4-ga-itx" secondAttribute="centerX" id="NU5-j7-le8"/>
+                            <constraint firstAttribute="bottom" secondItem="Qmf-kb-POf" secondAttribute="bottom" constant="4" id="g6E-ea-d7g"/>
+                            <constraint firstItem="Qmf-kb-POf" firstAttribute="centerX" secondItem="C7e-4D-qwH" secondAttribute="centerX" id="qVE-YL-Tai"/>
+                            <constraint firstAttribute="trailing" secondItem="fz4-3W-lK9" secondAttribute="trailing" id="uUb-kH-PuB"/>
+                            <constraint firstItem="he4-ga-itx" firstAttribute="leading" secondItem="qAa-hC-HYs" secondAttribute="leading" constant="30" id="yNZ-mx-fsj"/>
+                            <constraint firstItem="fz4-3W-lK9" firstAttribute="leading" secondItem="qAa-hC-HYs" secondAttribute="leading" id="zHo-cp-2O5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="qAa-hC-HYs" secondAttribute="trailing" id="9tD-Cz-bcz"/>
+                    <constraint firstAttribute="bottom" secondItem="qAa-hC-HYs" secondAttribute="bottom" id="KPd-er-G7X"/>
+                    <constraint firstItem="qAa-hC-HYs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YOU-4L-kLi"/>
+                    <constraint firstItem="qAa-hC-HYs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="nHy-Gw-6s8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImageView" destination="he4-ga-itx" id="Srw-dM-b1x"/>
+                <outlet property="nameLabel" destination="NLZ-8M-OpF" id="Svw-kc-3JD"/>
+                <outlet property="watchImageView" destination="C7e-4D-qwH" id="cTh-zb-SBU"/>
+            </connections>
+            <point key="canvasLocation" x="477" y="390"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="setBackground_02.png" width="720" height="192"/>
+    </resources>
+</document>

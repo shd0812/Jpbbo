@@ -7,10 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BMapKit.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UIAlertViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) UINavigationController *rootNavigationController;
+
+@property (nonatomic, strong) BMKMapManager *bmkManager;
+
+@property (nonatomic, strong) BMKUserLocation *userLocation;
+
+@property (nonatomic ,strong) CLLocationManager *locationManager;
+
+@property (nonatomic, strong) NSString *trackViewURL;
+
 
 
 @end
